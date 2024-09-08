@@ -10,7 +10,6 @@ import numpy as np
 img=cv2.imread('road.jpg')
 img=cv2.resize(img,(800,800))
 img[0:200,0:800]=[255,255,255]#Converting the top part white because clouds are black in colour
-cv2.imshow('g',img)
 mask=np.zeros(img.shape[:2],np.uint8)
 
 
