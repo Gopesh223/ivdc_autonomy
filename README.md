@@ -1,5 +1,4 @@
 # ivdc_autonomy
- This program is about processing an image to display only the road and remove other unnecessary objects
 Welcome to my program. This program is about processing the image of a tarred road to remove out the unnecessary things 
 in the background to reduce the information fed to the device for lane detection. While using grabCut function on the entire image,
 I noticed some distinct changes. The road had become extra dark,its pixel color values had become 0. This meant that if I could 
